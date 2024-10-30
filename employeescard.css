@@ -1,0 +1,55 @@
+html, body {
+    scroll-behavior: smooth;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-card {
+    display: flex;
+    align-self: center;
+    flex-direction: row;
+}
+.container__card {
+    overflow: hidden;
+    border-radius: 20px 100px 20px 20px;
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    height: 50vh;
+    min-height: 25vh;
+    max-height: 60vh;
+    width: 300px;
+    min-width: 250px;
+    max-width: 400px;
+}
+.container-card__card2 {
+    display: flex;
+    margin: 12px 7px 0 7px;
+    flex-direction: row;
+    background-color: black;
+    height: 200px;
+    border-radius: 15px 40px 15px 15px;   
+}
+.container-card__card2 img {
+    height:auto;
+    width:100%;
+    overflow: hidden;
+    object-fit:fill;
+    border-radius: 15px 40px 15px 15px; 
+}
+.container__card span {
+    overflow-wrap:break-word;
+    margin: 10px;
+    font-size: clamp(1rem, 1.3vw, 2.2rem);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container-card p {
+    margin: 10px 10px 0 15px;
+    color:brown;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
